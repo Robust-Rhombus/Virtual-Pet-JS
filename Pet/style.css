@@ -1,0 +1,81 @@
+@font-face {
+  font-family: Dogica;
+  src: url(Assets/Fonts/dogica.ttf);
+}
+Body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Dogica;
+  overflow: hidden;
+}
+a {
+  margin: 1px;
+  font-size: 9px;
+  text-underline-position: 100px;
+  position: absolute;
+  bottom: 0px;
+}
+div {
+  background-color: white;
+  border-color: black;
+}
+#TopBar {
+  padding: 2px;
+  border-style: solid;
+  border-width: 1px;
+  width: 200px;
+}
+#Footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 195px;
+  padding: 2px;
+  border-style: solid;
+  border-width: 1px;
+  height: 40px;
+}
+#Version {
+  font-size: 9px;
+  margin: 0px;
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+}
+#SideBar {
+  float: right;
+  border-width: 1px;
+  border-style: solid;
+  padding: 2px;
+  width: 94px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 294px;
+}
+#PetContainer {
+  width: 200px;
+  height: 210px;
+  position: absolute;
+  bottom: 46px;
+}
+button {
+  font-family: Dogica;
+  font-size: 9px;
+  border-style: solid;
+}
+p {
+  font-size: 9px;
+  margin: 2px;
+}
+textarea {
+  resize: none;
+  width: 190px;
+  font-size: 9px;
+  font-family: Dogica;
+  height: 25px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: black;
+}

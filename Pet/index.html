@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="PetCustomize.css" type="text/css">
+    <script src="Generator.js"></script>
+</head>
+
+<body>
+
+    <h1>
+        Pet generator
+    </h1>
+    <div id="Group">
+        <h1>iframe border style</h1>
+        <div id="Options">
+            <p>Style</p>
+            <select id="BorderStyle">
+                <option value="dashed">Dashed</option>
+                <option value="dotted">Dotted</option>
+                <option value="double">Double</option>
+                <option value="groove">Groove</option>
+                <option value="inset">Inset</option>
+                <option value="outset">Ouset</option>
+                <option value="ridge">Ridge</option>
+                <option value="solid">Solid</option>
+            </select>
+        </div>
+        <div id="Options">
+            <p>Color</p>
+            <input type="color" id="BorderColor">
+        </div>
+        <div id="Options">
+            <p>Width in px</p>
+            <input type="number" id="BorderWidth">
+        </div>
+    </div>
+    <div id="Group">
+        <h1>Pet details</h1>
+        <div id="Options">
+            <p>Birthdate</p>
+            <input type="date" id="Birthdate">
+        </div>
+        <div id="Options">
+            <p>Name</p>
+            <input type="text" id="Name">
+        </div>
+        <div id="Options">
+            <p>Pet Image url</p>
+            <input type="text" id="PetLink">
+        </div>
+        <div id="Options">
+            <p>Pet scale</p>
+            <input type="range" min="0" max="200" value="100" id="PetScale">
+        </div>
+        <div id="Options">
+            <p>use custom pet positioning?</p>
+            <input type="checkbox" id="CustomPetPosition">
+        </div>
+        <div id="Options">
+            <p>Pet x, y position</p>
+            <input type="range" min="-200" max="200" value="0" id="PetPosX">
+            <input type="range" min="-200" max="200" value="0" id="PetPosY">
+        </div>
+    </div>
+    <div id="Group">
+        <h1>Background</h1>
+        <div id="Options">
+            <p>Background</p>
+            <input type="color" id="BGColor">
+        </div>
+        <div id="Options">
+            <p>Use background image instead</p>
+            <input type="checkbox" id="BGColorToggle">
+        </div>
+        <div id="Options">
+            <p>Background image url</p>
+            <input type="url" id="BGUrl">
+        </div>
+        <div id="Options">
+            <p>background image mode</p>
+            <select id="BGMode">
+                <option value="repeated">Repeated</option>
+                <option value="stretched">Stretched</option>
+                <option value="custom">Custom</option>
+            </select>
+        </div>
+        <div id="Options">
+            <p>Custom background x, y position</p>
+            <input type="range" min="-500" max="500" value="0" id="BGPosX">
+            <input type="range" min="-500" max="500" value="0" id="BGPosY">
+        </div>
+        <div id="Options">
+            <p>Custom background image scale</p>
+            <input type="range" min="0" max="200" value="100" id="BGScale">
+        </div>
+    </div>
+    <div id="Group">
+        <h1>Interface</h1>
+        <div id="Options">
+            <p>UI Color</p>
+            <input type="color" id="UIColor">
+        </div>
+        <div id="Options">
+            <p>Use image instead?</p>
+            <input type="checkbox" id="UIColorToggle">
+        </div>
+        <div id="Options">
+            <p>UI image</p>
+            <input type="url" id="UIImageUrl">
+        </div>
+        <div id="Options">
+            <p>UI outline color</p>
+            <input type="color" id="UIOutlineColor">
+        </div>
+        <div id="Options">
+            <p>Text color</p>
+            <input type="color" id="TextColor">
+        </div>
+        <div id="Options">
+            <p>Button color</p>
+            <input type="color" id="ButtonColor">
+        </div>
+        <div id="Options">
+            <p>Button outline color</p>
+            <input type="color" id="ButtonOutlineColor">
+        </div>
+        <div id="Options">
+            <p>Button text color</p>
+            <input type="color" id="ButtonTextColor">
+        </div>
+    </div>
+    <button type="button" onclick="Generate()">Generate</button>
+    <br>
+    <p>Preview:</p>
+    <div id="Preview"></div>
+    <p>Generated code:</p>
+    <textarea id="Output"></textarea>
+    <p>Font:</p>
+    <a href="https://www.dafont.com/dogica.font">Link</a>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+Body {
+    background-color: rgb(34, 34, 34);
+    font-family: monospace;
+}
+#Group {
+    border-style: solid;
+    border-width: 2px;
+    display: table;
+    width: 100%;
+    margin-bottom: 5px;
+}
+#Options {
+    float: left;
+    margin: 5px;
+    border-style: solid;
+    border-color: rgb(51, 51, 51);
+    padding: 2px;
+}
+h1 {
+    margin: 0px;
+    color: white;
+}
+p {
+    margin: 2px;
+    color: white;
+}
+select {
+    border: none;
+}
+input {
+    border: none;
+    display: block;
+}
+textarea {
+    width: 99%;
+    height: 200px;
+}

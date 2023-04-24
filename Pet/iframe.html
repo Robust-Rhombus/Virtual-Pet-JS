@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="PetController.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body id="Body">
+    <div class="UI" id="TopBar">
+        <p id="Name">Name:</p>
+        <p id="Birthdate">Birthdate: 0000-00-00</p>
+        <p id="Status">Hunger: 70% Mood: 70%</p>
+        <p id="Money">Money: 00</p>
+    </div>
+    <div class="UI" id="SideBar">
+        <div class="UI" id="Shop">
+            <p>Shop</p>
+            <button onclick="Buy('Food')">Food $5</button>
+            <button onclick="Buy('Treat')">Treat $10</button>
+            <button onclick="Buy('Soda')">Soda $5</button>
+        </div>
+        <div class="UI" id="Actions">
+            <p>Actions</p>
+            <button onclick="Action('Play')">Play</button>
+            <button onclick="Action('Pet')">Pet</button>
+        </div>
+        <p>Hover over buttons for more info</p>
+        <p id="Version">V1.0</p>
+    </div>
+    <div id="PetContainer">
+        <img id="PetImg">
+    </div>
+    <div class="UI" id="Footer">
+        <textarea disabled="true" id="Messages"></textarea>
+        <a id="Credit" href="https://aatcma.xyz">Adopt a pet</a>
+    </div>
+</body>
+
+</html>
